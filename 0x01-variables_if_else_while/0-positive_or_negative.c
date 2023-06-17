@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Description: program to identy positive or negative numbers
+ *Return: aslways 0 (success)
+ */
 int main(void)
 {
 	int n;
@@ -21,7 +23,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negetaive\n", n);
+		printf("%d is negetive\n", n);
 	}
 	return (0);
 }
