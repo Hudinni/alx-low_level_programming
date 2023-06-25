@@ -7,21 +7,26 @@
  */
 void print_fibonacci(int n)
 {
-	int fibonacci[n];
+	int fibonacci[50];
 
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
 
-	for (int i = 2; i < n; i++)
+	int i;
+
+	for (i = 2; i < n && i < 50; i++)
 	{
 		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 	}
-	for (int i = 0; i < n; i++)
+
+	int j;
+
+	for (j = 0; j < i; j++)
 	{
-		printf("%d", fibonacci[i]);
-		if (i != n - 1)
+		printf("%d", fibonacci[j]);
+		if (j != i - 1)
 		{
-		printf(", ");
+			printf(", ");
 		}
 	}
 	printf("\n");
