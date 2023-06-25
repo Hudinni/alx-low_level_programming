@@ -2,7 +2,7 @@
 /**
   * _islower - Function Entry Point
   * Description: check if the given character is a lowercase
-  * c character being checked
+  * @c: character is ACSII code
   * Return: 1 if Lowercase character, 0 otherwise.
   */
 int _islower(int c)
