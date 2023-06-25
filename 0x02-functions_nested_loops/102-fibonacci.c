@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry Point
  * print_fibonacci - Prints the first n Fibonacci numbers
  * @n: variable counter
  * Description: program to print first 50 Fibonacci numbers, from 1 & 2
  * Return: always 0
  */
-void print_fibonacci(int n);
+void print_fibonacci(int n)
 {
 	int fibonacci[n];
 
