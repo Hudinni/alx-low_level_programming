@@ -18,15 +18,14 @@ int main(void)
 	char temp_string[12];
 
 	sprintf(fibo_string, "%u, %u, ", fibo1, fibo2);
-
 	for (n = 3; n <= 98; n++)
 	{
 		fibo_next = fibo1 + fibo2;
-		sprintf(temp_string, "%u", fibo_next);
+		sprintf(temp_string, "%012u", fibo_next);
 		strcat(fibo_string, temp_string);
 		if (n < 98)
 		{
-		strcat(fibo_string, ", ");
+			strcat(fibo_string, ", ");
 		}
 		fibo1 = fibo2;
 		fibo2 = fibo_next;
