@@ -24,6 +24,6 @@ int main(void)
 	firstnum = secondnum;
 	secondnum = sum;
 	}
-	printf("Sum of Fibonacci even-valued terms up to 4,000,000: %d\n", evenSum);
+	printf("%d\n", evenSum);
 	return (0);
 }
