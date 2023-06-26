@@ -15,7 +15,7 @@ int main(void)
 	unsigned int fibo2 = 2;
 	unsigned int fibo_next;
 	char fibo_string[1244] = "";
-	char temp_string[12];
+	char temp_string[13];
 
 	sprintf(fibo_string, "%u, %u, ", fibo1, fibo2);
 	for (n = 3; n <= 98; n++)
